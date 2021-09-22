@@ -1,0 +1,31 @@
+The indentation
+Use the TAB key to set the number of Spaces for the TAB key to 4.
+Variable naming
+1) Understand what it is when you can see it, separate words with underscores, lowercase letters.
+2) Variable declaration should be as close as possible to the first use, avoid declaring a set of variables that are not immediately used;
+Maximum number of characters per line
+80
+Maximum number of lines of a function
+100
+Function and class naming
+Capitalize each word.
+constant
+All capital letters.
+Empty line rules
+1) Functions should be separated by blank lines;
+2) Divide code into logical fragments with empty lines;
+3) Each class declaration should be followed by a space to separate it from the rest of the code
+Annotation rules
+1) Comments should be close to the code they describe and should not be placed below them. If they are placed above them, they should be separated by blank lines.
+2) Comments are indented the same way they are described.
+3) Separate a comment from its code with a blank line.
+4) Comments for variables, constants and macros should be placed adjacent above or to the right. 
+5) Neither too many nor too few comments.
+Operator before and after Spaces
+() () () () () () () () () () () () () () () () () 'Follow closely forward, leaving no Spaces behind.
+3) Function(x, y, z) If '; 'is not the end of a line and must be followed by a space, as in for (initialization; condition; The update).
+4) Value operators, comparison operators, arithmetic operators, logical operators, bit-field operators, such as "=", "+=", "&gt; = ", "& lt; = ", "+", "*", "%", "&", "| |", "& lt; & lt;" Binary operators such as "^" and "^" should be preceded by Spaces.
+5) Unary operators such as "! ", "~", "++", "--", and "&" (address operator) without Spaces.
+6) Like "[]", "." , "- & gt;" This type of operator is preceded by no Spaces.
+other
+If, for, do, while, case, switch, default and other statements occupy a line by themselves, and the execution part of if, for, do, while and other statements should be parentheses {} no matter how much.
