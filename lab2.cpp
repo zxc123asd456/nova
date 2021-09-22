@@ -14,7 +14,7 @@ public:
     void Ifelse_judge();
 };
 /*Define the keyword array*/
-program p[32] = { "auto", 0,"break",0,"case",0,"char",0,"const", 0,"continue",0,"default",0,"do", 0,
+program keyword[32] = { "auto", 0,"break",0,"case",0,"char",0,"const", 0,"continue",0,"default",0,"do", 0,
                  "double",0,"else",0,"enum",0,"float",0,"for",0,"goto",0,"if",0,"int",0,
                  "long",0,"register",0, "while", 0,"reuturn",0,"short",0,"signed",0,"sizeof",0,"static", 0,
                  "struct",0,"switch",0,"typedef",0,"union",0,"unsigned",0,"void", 0 ,"volatile",0,"while", 0 };
@@ -98,7 +98,6 @@ void Print_number()
         }
     }
     cout << "total num: " << sum << endl;
-    
         bool Case_flag = false;
         cout << "switch num: " << switch_number << endl;
         cout << "case num: ";
@@ -115,14 +114,8 @@ void Print_number()
             cout << "0";
         }
         cout << endl;
-    
-    
         cout << "if-else num: " << ifelse_number << endl;
-    
-   
-    
         cout << "if-elseif-else num: " << ifelseifelse_number << endl;
-    
 }
 
 void Search_name(string str)
@@ -144,7 +137,7 @@ int main()
     /* input file address*/
     cout << "Please enter the file address:" << endl;
     cin >> file_name;
-    ifstream in(file_name.c_str());//read the file (example£º./test.c)./
+    ifstream in(file_name.c_str());//read the file (exampleï¼š./test.c)./
     string str;
     if (in.is_open())
     {
